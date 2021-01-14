@@ -58,12 +58,12 @@ public class Vehicle {
 
     @Override
     public String toString() {
-        return "Vehicle{" +
-                "color='" + color + '\'' +
-                ", owner='" + owner + '\'' +
-                ", manufacturer='" + manufacturer + '\'' +
-                ", model='" + model + '\'' +
-                ", licensePlate='" + licensePlate + '\'' +
-                '}';
+        return  "\nowner = '" + owner + '\'' +
+                "\nlicensePlate = '" + licensePlate + '\''+
+                "\nmanufacturer = '" + manufacturer + '\'' +
+                "\nmodel = '" + model + '\'' +
+                "\ncolor = '" + color + '\'';
+
+
     }
 }
